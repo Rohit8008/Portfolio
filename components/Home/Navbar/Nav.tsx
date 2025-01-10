@@ -56,7 +56,7 @@ const Nav = ({ openNav }: Props) => {
           </div>
           {/* Buttons  */}
           <div className="flex items-center space-x-4"></div>
-          <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg">
+          <button className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg whitespace-nowrap">
             Hire Me
           </button>
           {/* Burger Menu */}
