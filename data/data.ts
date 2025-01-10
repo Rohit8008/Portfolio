@@ -1,5 +1,5 @@
 export const BaseInfo = {
-  name: "Sajal",
+  name: "Rohit Mittal",
   position: "Full Stack Web Developer",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
