@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from './Hero/Hero'
 import About from './About/About'
 import Services from './Services/Services'
+import Projects from './Projects/Projects'
+import Skills from './Skills/Skills'
 
 function Home() {
   return (
@@ -9,6 +11,8 @@ function Home() {
       <Hero/>
       <About/>
       <Services/>
+      <Projects/>
+      <Skills/>
     </div>
   )
 }
