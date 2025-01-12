@@ -1,9 +1,29 @@
+"use client";
 import { BaseInfo } from "@/data/data";
 import Image from "next/image";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
+  const handleDownloadCV = async () => {
+    try {
+      const response = await fetch("/api/resume");
+      if (!response.ok) throw new Error("Download failed");
+
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "RohitMittalResume.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("Error downloading Resume:", error);
+    }
+  };
+
   return (
     <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative">
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
@@ -33,6 +53,7 @@ const Hero = () => {
             </p>
             {/* button */}
             <button
+              onClick={handleDownloadCV}
               data-aos="zoom-in"
               data-aos-delay="300"
               className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2"
