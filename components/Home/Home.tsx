@@ -5,6 +5,8 @@ import Services from "./Services/Services";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Reviews from "./Reviews/Reviews";
+import Blog from "./Blog/Blog";
+import Contact from "./Contact/Contact";
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <Projects />
       <Skills />
       <Reviews />
+      <Blog />
+      <Contact />
     </div>
   );
 }
