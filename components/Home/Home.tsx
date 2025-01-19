@@ -29,13 +29,27 @@ function Home() {
   return (
     <div className="overflow-hidden">
       <Hero />
-      <About />
-      <Services />
-      <Projects />
-      <Skills />
-      <Reviews />
-      <Blog />
-      <Contact />
+      <section id="about">
+        <About />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="reviews">
+        <Reviews />
+      </section>
+      <section id="blog">
+        <Blog />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 }

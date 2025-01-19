@@ -2,71 +2,71 @@ export const BaseInfo = {
   name: "Rohit Mittal",
   position: "Full Stack Web Developer",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+    "Passionate Full Stack Developer with experience in building scalable, user-centric applications using MERN stack, Java Spring Boot, and modern web technologies.",
   profilePic: "/images/hero.png",
 };
 
 export const aboutInfo = {
-  title: "Crafting Web Application with Passion and Precision",
+  title: "Crafting Scalable & High-Performance Web Applications",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-  client: "50+",
-  experience: "3+",
-  project: "200+",
-  website: "100+",
+    "I am a dedicated Full Stack Developer with expertise in building robust and scalable applications using MERN stack, Java Spring Boot, and cloud technologies. With a focus on creating seamless user experiences and optimizing performance, I specialize in both frontend and backend development, ensuring efficient and secure software solutions.",
+  client: "5+",
+  experience: "2+",
+  project: "20+",
+  website: "10+",
 };
 
 export const servicesData = [
   {
     id: 1,
-    title: " Web Applications",
-    description: "Tailored web apps built with the latest technologies.",
+    title: " Full-Stack Web Applications",
+    description: "Custom-built web apps with a focus on performance and scalability.",
     icon: "/images/s1.png",
   },
   {
     id: 2,
-    title: "E-commerce Websites",
+    title: "E-commerce Platforms",
     description:
-      "Secure online stores with user-friendly shopping and payments.",
+      "Feature-rich online stores with secure payment integration and seamless user experience.",
     icon: "/images/s2.png",
   },
   {
     id: 3,
-    title: "API Integration",
+    title: "API Development & Integration",
     description:
-      "Seamless integration for smooth data sharing and functionality.",
+      "Building robust RESTful APIs and integrating third-party services efficiently.",
     icon: "/images/s3.png",
   },
   {
     id: 4,
-    title: "User Interfaces",
+    title: "UI/UX Development",
     description:
-      "Engaging, responsive front-end designs for better user experiences.",
+      "Creating modern, responsive, and engaging frontend interfaces using React and TypeScript.",
     icon: "/images/s4.png",
   },
   {
     id: 5,
-    title: "Database Solutions",
+    title: "Database Management",
     description:
-      "Efficient and scalable database management for your data needs.",
+      "Designing scalable database architectures with MongoDB, MySQL, and PostgreSQL.",
     icon: "/images/s5.png",
   },
   {
     id: 6,
-    title: "Real-Time Features",
-    description: "Add live chat, notifications, and real-time data updates.",
+    title: "Real-Time Applications",
+    description: "Implementing real-time features like live chat and notifications.",
     icon: "/images/s6.png",
   },
   {
     id: 7,
-    title: "Speed Optimization",
-    description: "Boost performance with faster load times and optimization.",
+    title: "Performance Optimization",
+    description: "Enhancing application performance with efficient code and caching strategies.",
     icon: "/images/s7.png",
   },
   {
     id: 8,
-    title: "Website Management",
-    description: "Easy content management systems with flexible controls.",
+    title: "Cloud Deployment & DevOps",
+    description: "Deploying scalable applications on AWS, Docker, and CI/CD pipelines.",
     icon: "/images/s8.png",
   },
 ];
@@ -75,7 +75,7 @@ export const projectData = [
   {
     id: 1,
     image: "/images/p1.png",
-    url: "https://agency-opal-eight.vercel.app/",
+    url: "https://github.com/rohit8008/iNotebook",
   },
   {
     id: 2,
@@ -123,57 +123,51 @@ export const skillsData = [
   },
   {
     id: 2,
-    title: "CSS",
-    image: "/images/css.svg",
-    percent: "97%",
+    title: "TypeScript",
+    image: "/images/ts.svg",
+    percent: "80%",
   },
   {
     id: 3,
     title: "JavaScript",
     image: "/images/js.svg",
-    percent: "77%",
+    percent: "85%",
   },
   {
     id: 4,
-    title: "TypeScript",
-    image: "/images/ts.svg",
-    percent: "67%",
+    title: "Node.js",
+    image: "/images/node.svg",
+    percent: "85%",
   },
   {
     id: 5,
-    title: "HTML",
-    image: "/images/html.svg",
-    percent: "67%",
-  },
-  {
-    id: 6,
-    title: "Node JS",
-    image: "/images/node.svg",
-    percent: "77%",
-  },
-  {
-    id: 7,
-    title: "MongoDB",
-    image: "/images/mongo.svg",
-    percent: "65%",
-  },
-  {
-    id: 8,
-    title: "Python",
-    image: "/images/python.svg",
-    percent: "55%",
-  },
-  {
-    id: 9,
-    title: "Firebase",
-    image: "/images/firebase.svg",
+    title: "Spring Boot",
+    image: "/images/spring.svg",
     percent: "75%",
   },
   {
-    id: 10,
-    title: "Vue",
-    image: "/images/vue.svg",
-    percent: "35%",
+    id: 6,
+    title: "MongoDB",
+    image: "/images/mongo.svg",
+    percent: "80%",
+  },
+  {
+    id: 7,
+    title: "MySQL",
+    image: "/images/mysql.svg",
+    percent: "70%",
+  },
+  {
+    id: 8,
+    title: "Docker",
+    image: "/images/docker.svg",
+    percent: "60%",
+  },
+  {
+    id: 9,
+    title: "AWS",
+    image: "/images/aws.svg",
+    percent: "50%",
   },
 ];
 
@@ -240,7 +234,7 @@ export const blogs = [
 ];
 
 export const contactData = {
-  phone: "+88(012345 789)",
-  email: "example@gmail.com",
-  address: "Dhaka , Bangladesh",
+  phone: "+91 6283930283",
+  email: "rohitmittal137@gmail.com",
+  address: "Gurugram, Haryana, India",
 };
